@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 function App() {
 
-  const [count, setCount] = useState([DISHES]);
+  const [count, setCount] = useState(DISHES);
   return (
     <div >
       <Navbar dark color="primary">
